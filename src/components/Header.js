@@ -1,4 +1,5 @@
 import React from "react"
+import myimage from '../myimage.jfif'
 export default function Header()
 {
     return(
@@ -6,7 +7,7 @@ export default function Header()
           <div class="image-container">
             <img 
               className="myimage" 
-              src="https://www.worldanimalprotection.ca/cdn-cgi/image/width=1280,format=auto/siteassets/shutterstock_2461984615.jpg" 
+              src={myimage}
               alt="myimage" />
           </div>
         </React.Fragment>
