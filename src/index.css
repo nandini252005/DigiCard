@@ -52,7 +52,7 @@ body{
     font-weight: bolder;
     align-items: center;
     margin-left: 30px;
-    box-shadow: 5px 5px 10px 1px #C0C0C0;
+    box-shadow: 5px 5px 5px 0px #C0C0C0;
     background-color: silver;
     cursor:pointer;
 }
@@ -61,7 +61,7 @@ body{
 }
 
 .gitbutton:hover , .emailbutton:hover{
-transform: scale(1.04 );
+transform: scale(1.08 );
 }
 .aboutme{
     width: 50%;
@@ -75,7 +75,7 @@ transform: scale(1.04 );
 }
 .aboutme-p{
    width: 80%;
-   margin-left: 12%;
+   margin-left: 10%;
    text-align: center;
    color: rgb(164, 161, 161);
 }
@@ -101,5 +101,5 @@ transform: scale(1.04 );
     height: 25px;
     margin-left: 24%;
     margin-top: 14px;
-    margin-right:5px
+    margin-right:4px
 }
